@@ -1,6 +1,7 @@
 FROM jekyll/jekyll:latest
 ADD . /tmp/jekyll-site
 WORKDIR /tmp/jekyll-site
+RUN chown -R jekyll .
 RUN jekyll build
 
 FROM nginx:alpine
