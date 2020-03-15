@@ -1,0 +1,3 @@
+1. Stop the website container
+2. sudo certbot renew --standalone
+3. Copy privkey and fullchain to website folder.
