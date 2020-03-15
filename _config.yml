@@ -1,0 +1,44 @@
+title: Carlos Segarra
+url: "https://carlossegarra.com"
+baseurl: ""
+
+markdown: kramdown
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://carlossegarra.com/about"
+footer_text: "Last update: 15/03/2020"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "index"
+ - name: "Resume"
+   link: "assets/SegarraCarlos_CV.pdf"
+ - name: "Contact"
+   link: "contact"
+
+social-media:
+  - id: 'carlos@carlossegarra.com'
+    href: 'mailto:'
+    title: 'Email'
+    fa-icon: 'fa-envelope-square'
+  
+  - id: 'carlossegarrag'
+    href: 'https://www.twitter.com/'
+    title: 'Twitter'
+    fa-icon: 'fa-twitter-square'
+  
+  - id: 'csegarragonz'
+    href: 'https://github.com/'
+    title: 'GitHub'
+    fa-icon: 'fa-github-square'
+
+  - id: 'carlossegarrag'
+    href: 'https://linkedin.com/in/'
+    title: 'LinkedIn'
+    fa-icon: 'fa-linkedin'
