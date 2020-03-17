@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /contact
 is_contact: true
 ---
 
