@@ -75,13 +75,13 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            <a id="author-name" class="alignable pull-left" href="{{ site.url }}">{{ site.title }}</a>
+            <a id="author-name" class="alignable pull-left" href="{{ site.myurl }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
                     {% if x.name == "Resume" %}
-                    <li class="alignable pull-left nav-list"><a target="_blank" href="{{ site.url }}/{{ x.link }}">{{ x.name }}</a>
+                    <li class="alignable pull-left nav-list"><a target="_blank" href="{{ site.url }}{{ x.link }}">{{ x.name }}</a>
                     {% else %}
-                    <li class="alignable pull-left nav-list"><a href="{{ site.url }}/{{ x.link }}">{{ x.name }}</a>
+                    <li class="alignable pull-left nav-list"><a href="{{ site.myurl }}{{ x.link }}">{{ x.name }}</a>
                     {% endif %}
                     {% if forloop.last == false %}
                         /

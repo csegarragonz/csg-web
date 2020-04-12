@@ -1,5 +1,7 @@
 title: Carlos Segarra
 url: "https://carlossegarra.com"
+myurl: "https://carlossegarra.com"
+#myurl: "http://localhost:3000"
 baseurl: ""
 
 markdown: kramdown
@@ -8,7 +10,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://carlossegarra.com/"
-footer_text: "Last update: 15/03/2020"
+footer_text: "Last update: 12/04/2020"
 favicon_location: 'favicon.ico'
 
 sass:
@@ -17,11 +19,11 @@ sass:
 
 nav:
  - name: "About"
-   link: ""
+   link: "/"
  - name: "Resume"
-   link: "assets/SegarraCarlos_CV.pdf"
+   link: "/assets/SegarraCarlos_CV.pdf"
  - name: "Contact"
-   link: "contact"
+   link: "/contact"
 
 social-media:
   - id: 'carlos@carlossegarra.com'
