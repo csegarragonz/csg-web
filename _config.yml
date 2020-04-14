@@ -1,7 +1,7 @@
 title: Carlos Segarra
 url: "https://carlossegarra.com"
-myurl: "https://carlossegarra.com"
-#myurl: "http://localhost:3000"
+#myurl: "https://carlossegarra.com"
+myurl: "http://localhost:3000"
 baseurl: ""
 
 markdown: kramdown

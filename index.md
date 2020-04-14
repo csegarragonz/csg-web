@@ -27,14 +27,14 @@ Web was something I had never worked on, so they have agreed to let me on as a p
 
 ## Publications
 
-1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020.
+1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
 [[ISBN](broken) | [DOI](https://doi.org/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/pdf/2004.02253.pdf) | [Cite](broken)]
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2019) **_"MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge"_**. MIE 2020, Geneva, Switzerland. May 19-20, 2020. \\
 [[ISBN](broken) | [DOI](broken) | [arXiv](broken) | [Cite](broken)]
-2.  C. Segarra, E. Muntan\'e, M. Lemay, V. Schiavoni, and  R. Delgado-Gonzalo (2019) **_Secure Stream Processing for Medical Data_**. IEEE EMBC 2019.
-[[ISBN](broken) | [DOI](broken) | [arXiv](https://arxiv.org/abs/1907.12242) | [Cite](broken)]
-3. C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schiavoni (2019) **_Using Trusted Execution Environments for Secure Stream Processing of Medical Data_**. In: Pereira J., Ricci L. (eds) Distributed Applications and Interoperable Systems. DAIS 2019. Lecture Notes in Computer Science, vol 11534. 
-[[ISBN](978-3-030-22496-7) | [DOI](https://doi.org/10.1007/978-3-030-22496-7_6) | [arXiv](https://arxiv.org/abs/1906.07072) | [Cite](broken) ]
+2.  C. Segarra, E. Muntan\'e, M. Lemay, V. Schiavoni, and  R. Delgado-Gonzalo (2019) **_Secure Stream Processing for Medical Data_**. IEEE EMBC 2019.\\
+[[DOI](https://doi.org/10.1109/EMBC.2019.8856334) | [arXiv](https://arxiv.org/abs/1907.12242) | [Cite]({{ site.url }}/assets/papers/EMBC2019_SecureStreamProcessing.bib) | [PDF]({{ site.url }}/assets/papers/EMBC2019_SecureStreamProcessing.pdf)]
+3. C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schiavoni (2019) **_Using Trusted Execution Environments for Secure Stream Processing of Medical Data_**. In: Pereira J., Ricci L. (eds) Distributed Applications and Interoperable Systems. DAIS 2019. Lecture Notes in Computer Science, vol 11534.\\
+[[DOI](https://doi.org/10.1007/978-3-030-22496-7_6) | [arXiv](https://arxiv.org/abs/1906.07072) | [Cite]({{ site.url }}/assets/papers/DAIS2019_UsingTEE.bib) | [PDF] ({{ site.url }}/assets/papers/DAIS2019_UsingTEE.pdf)]
 
 ## Education
 
