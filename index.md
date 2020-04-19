@@ -28,7 +28,7 @@ Web was something I had never worked on, so they have agreed to let me on as a p
 ## Publications
 
 1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
-[[DOI](https://doi.org/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/abs/2004.02253) | [Cite](broken) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
+[[DOI](https://dl.acm.org/doi/abs/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/abs/2004.02253) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2019) **_"MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge"_**. MIE 2020, Geneva, Switzerland. May 19-20, 2020. \\
 [[DOI](broken) | [arXiv](broken) | [Cite](broken) | [PDF](broken)]
 2.  C. Segarra, E. Muntan\'e, M. Lemay, V. Schiavoni, and  R. Delgado-Gonzalo (2019) **_Secure Stream Processing for Medical Data_**. IEEE EMBC 2019.\\
