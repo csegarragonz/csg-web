@@ -45,3 +45,9 @@ social-media:
     href: 'https://linkedin.com/in/'
     title: 'LinkedIn'
     fa-icon: 'fa-linkedin'
+
+  - id: 'citations?user=U0KR_0cAAAAJ&hl=en'
+    href: 'https://scholar.google.com/'
+    title: 'Google Scholar'
+    fa-icon: 'fa-university'
+

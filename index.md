@@ -19,7 +19,7 @@ I am also highly interested in **formal methods**, verification and synthesis.
 
 As a researcher at the IIUN, and under the supervision of [Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), I am actively doing research with [Trusted Execution Environments](https://en.wikipedia.org/wiki/Trusted_execution_environment), namely [Intel SGX](https://en.wikipedia.org/wiki/Software_Guard_Extensions) and [Arm TrustZone](https://developer.arm.com/ip-products/security-ip/trustzone), and working on network emulation tools with the [Angainor Project](https://angainor.science).
 
-For my MSc thesis, and with a grant of the [Department of Computer Architecture](https://www.ac.upc.edu/en/about-us), I am working on live migration of distributed container deployments using checkpoint/restore.
+For my MSc thesis, and with a grant of the [Department of Computer Architecture](https://www.ac.upc.edu/en/about-us), I am working on live migration of distributed container deployments using [checkpoint/restore](https://criu.org/Main_Page).
 You can follow the development of the project in the [Github repo](https://github.com/lm-docker/criu-demos).
 
 At [Alumniverse](https://alumniverse.com) I am a full-stack web developer.
