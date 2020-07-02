@@ -30,7 +30,7 @@ Web was something I had never worked on, so they have agreed to let me on as a p
 1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
 [[DOI](https://dl.acm.org/doi/abs/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/abs/2004.02253) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2019) **_"MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge"_**. MIE 2020, Geneva, Switzerland. May 19-20, 2020. \\
-[[DOI](broken) | [arXiv](broken) | [Cite](broken) | [PDF](broken)]
+[[DOI](https://doi.org/10.3233/shti200177) | [arXiv](broken) | [Cite]({{ site.url }}/assets/papers/MIE2020_MQTTZ.bib) | [PDF]({{ site.url }}/assets/papers/MIE2020_MQTTZ.pdf)]
 2.  C. Segarra, E. Muntan\'e, M. Lemay, V. Schiavoni, and  R. Delgado-Gonzalo (2019) **_Secure Stream Processing for Medical Data_**. IEEE EMBC 2019.\\
 [[DOI](https://doi.org/10.1109/EMBC.2019.8856334) | [arXiv](https://arxiv.org/abs/1907.12242) | [Cite]({{ site.url }}/assets/papers/EMBC2019_SecureStreamProcessing.bib) | [PDF]({{ site.url }}/assets/papers/EMBC2019_SecureStreamProcessing.pdf)]
 3. C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schiavoni (2019) **_Using Trusted Execution Environments for Secure Stream Processing of Medical Data_**. In: Pereira J., Ricci L. (eds) Distributed Applications and Interoperable Systems. DAIS 2019. Lecture Notes in Computer Science, vol 11534.\\
@@ -62,6 +62,10 @@ Web was something I had never worked on, so they have agreed to let me on as a p
 * **Research Collaborator** Computer Architecture Department - Technical University of Catalonia \\
   October 2019 - Present\\
   Supervisor: Jordi Guitart
+
+* **Full-Stack Web Developer** Alumniverse \\
+  January 2020 - June 2020 \\
+  Technologies used: PHP-Laravel and VueJS
 
 * **Research Assistant** Complex Systems Group - Institut d'Informatique (Université de Neuchâtel)\\
   August 2019 - December 2019\\
