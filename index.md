@@ -4,11 +4,10 @@ layout: main_page
 
 <img class="profile-picture" src="assets/csg_portrait.png">
 
-I am a master student in Advanced Mathematics at the **[Master in Advanced Mathematics and Mathematical Engineering (MAMME)](https://mamme.upc.edu)** from the Technical University of Catalonia.
+I am a PhD candidate at the **[Large-Scale Data & Systems Group](https://lsds.doc.ic.ac.uk/)** from the Imperial College London under the supervision of [Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
+My research interests cover systems, security, containers, and virtualization.
 
-I am doing research for the **Complex Systems Group** of the Institut d'Informatique of the Université de Neuchâtel (IIUN) and for the **Computer Architecture Department** of the Technical University of Catalonia.
-
-Lastly, I am part-time building very web-cool things at [Alumniverse](https://alumniverse.com).
+I am also doing research for the **Complex Systems Group** of the Institut d'Informatique of the Université de Neuchâtel (IIUN) and for the **Computer Architecture Department** of the Technical University of Catalonia.
 
 ---
 
@@ -21,9 +20,6 @@ As a researcher at the IIUN, and under the supervision of [Valerio Schiavoni](ht
 
 For my MSc thesis, and with a grant of the [Department of Computer Architecture](https://www.ac.upc.edu/en/about-us), I am working on live migration of distributed container deployments using [checkpoint/restore](https://criu.org/Main_Page).
 You can follow the development of the project in the [Github repo](https://github.com/lm-docker/criu-demos).
-
-At [Alumniverse](https://alumniverse.com) I am a full-stack web developer.
-Web was something I had never worked on, so they have agreed to let me on as a part-time engineer and so far I am enjoying the ride in `VueJS` and `Laravel-PHP`.
 
 ## Publications
 
@@ -43,7 +39,7 @@ Web was something I had never worked on, so they have agreed to let me on as a p
   (Advisor: Peter Pietzuch) 
 
 * **MSc in Advanced Mathematics** Technical University of Catalonia (UPC) \\
-  September 2019 - Present (Expected Graduation: July 2020)\\
+  September 2019 - July 2019 (Expected Graduation: July 2020)\\
   MSc Thesis: _Live Migration of Distributed Container Deployments_\\
   (Advisor: Jordi Guitart)
 
