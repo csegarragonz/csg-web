@@ -19,11 +19,13 @@ I am also highly interested in **formal methods**, verification and synthesis.
 As a researcher at the IIUN, and under the supervision of [Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), I am actively doing research with [Trusted Execution Environments](https://en.wikipedia.org/wiki/Trusted_execution_environment), namely [Intel SGX](https://en.wikipedia.org/wiki/Software_Guard_Extensions) and [Arm TrustZone](https://developer.arm.com/ip-products/security-ip/trustzone), and working on network emulation tools with the [Angainor Project](https://angainor.science).
 
 For my MSc thesis, and with a grant of the [Department of Computer Architecture](https://www.ac.upc.edu/en/about-us), I am working on live migration of distributed container deployments using [checkpoint/restore](https://criu.org/Main_Page).
-You can follow the development of the project in the [Github repo](https://github.com/lm-docker/criu-demos).
+You can follow the development of the project in the [Github repo](https://github.com/live-containers).
 
 ## Publications
 
-1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
+1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2020) **_MQT-TZ: Hardening IoT Brokers Using ARM TrustZone_**. SRDS 2020. Shangai, China. September 21-24 2020.\\
+[[DOI](broken) | [arXiv](broken) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
+1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos (2020) **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
 [[DOI](https://dl.acm.org/doi/abs/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/abs/2004.02253) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2019) **_"MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge"_**. MIE 2020, Geneva, Switzerland. May 19-20, 2020. \\
 [[DOI](https://doi.org/10.3233/shti200177) | [arXiv](https://arxiv.org/abs/2007.01555) | [Cite]({{ site.url }}/assets/papers/MIE2020_MQTTZ.bib) | [PDF]({{ site.url }}/assets/papers/MIE2020_MQTTZ.pdf)]
