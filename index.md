@@ -24,7 +24,7 @@ You can follow the development of the project in the [Github repo](https://githu
 ## Publications
 
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2020) **_MQT-TZ: Hardening IoT Brokers Using ARM TrustZone_**. SRDS 2020. Shangai, China. September 21-24 2020.\\
-[[DOI](broken) | [arXiv](broken) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
+[[DOI](broken) | [arXiv](http://arxiv.org/abs/2007.12442) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
 1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos (2020) **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
 [[DOI](https://dl.acm.org/doi/abs/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/abs/2004.02253) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2019) **_"MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge"_**. MIE 2020, Geneva, Switzerland. May 19-20, 2020. \\
