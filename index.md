@@ -44,6 +44,7 @@ You can follow the development of the project in the [Github repo](https://githu
   September 2019 - July 2019 (Expected Graduation: July 2020)\\
   MSc Thesis: _Live Migration of Distributed Container Deployments_\\
   (Advisor: Jordi Guitart)
+[[URI](https://upcommons.upc.edu/handle/2117/328099) | [arXiv](broken) | [Cite]({{ site.url }}/assets/papers/SegarraGonzalez_Carlos_TFM.bib) | [PDF]({{ site.url }}/assets/papers/SegarraGonzalez_Carlos_TFM.pdf)]
 
 * **BSc in Mathematics** Technical University of Catalonia (UPC) \\
   September 2014 - May 2019 \\
