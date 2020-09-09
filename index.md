@@ -24,7 +24,7 @@ You can follow the development of the project in the [Github repo](https://githu
 ## Publications
 
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2020) **_MQT-TZ: Hardening IoT Brokers Using ARM TrustZone_**. SRDS 2020. Shangai, China. September 21-24 2020.\\
-[[DOI](broken) | [arXiv](http://arxiv.org/abs/2007.12442) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
+[[DOI](broken) | [arXiv](http://arxiv.org/abs/2007.12442) | [Cite](broken) | [PDF](broken)]
 1. P. Gouveia, J. Neves, C. Segarra, L. Liechti, S. Issa, V. Schiavoni, and M. Matos (2020) **_Kollaps: Decentralized and Dynamic Topology Emulation_**. EuroSys 2020. Crete, Greece. April 27-30 2020. \\
 [[DOI](https://dl.acm.org/doi/abs/10.1145/3342195.3387540) | [arXiv](https://arxiv.org/abs/2004.02253) | [Cite]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib) | [PDF]({{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf)]
 1. C. Segarra, R. Delgado-Gonzalo, and V. Schiavoni (2019) **_"MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge"_**. MIE 2020, Geneva, Switzerland. May 19-20, 2020. \\
@@ -37,13 +37,13 @@ You can follow the development of the project in the [Github repo](https://githu
 ## Education
 
 * **PhD in Computing** LargeScale Data & Systems Group - Imperial College London \\
-  Starting Date October 2020\\
+  October 2020 - Present \\
   (Advisor: Peter Pietzuch) 
 
 * **MSc in Advanced Mathematics** Technical University of Catalonia (UPC) \\
   September 2019 - July 2019 (Expected Graduation: July 2020)\\
   MSc Thesis: _Live Migration of Distributed Container Deployments_\\
-  (Advisor: Jordi Guitart)
+  (Advisor: Jordi Guitart) \\
 [[URI](https://upcommons.upc.edu/handle/2117/328099) | [arXiv](broken) | [Cite]({{ site.url }}/assets/papers/SegarraGonzalez_Carlos_TFM.bib) | [PDF]({{ site.url }}/assets/papers/SegarraGonzalez_Carlos_TFM.pdf)]
 
 * **BSc in Mathematics** Technical University of Catalonia (UPC) \\
@@ -59,7 +59,7 @@ You can follow the development of the project in the [Github repo](https://githu
 ## Work Experience
 
 * **Research Collaborator** Computer Architecture Department - Technical University of Catalonia \\
-  October 2019 - Present\\
+  October 2019 - October 2020 \\
   Supervisor: Jordi Guitart
 
 * **Full-Stack Web Developer** Alumniverse \\
