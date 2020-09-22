@@ -2,7 +2,7 @@
 layout: main_page
 ---
 
-<img class="profile-picture" src="assets/csg_portrait.png">
+<img class="profile-picture" src="assets/SegarraCarlos_IMG_cropped.jpg">
 
 I am a PhD candidate at the **[Large-Scale Data & Systems Group](https://lsds.doc.ic.ac.uk/)** from the Imperial College London under the supervision of [Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
 My research interests cover systems, security, containers, and virtualization.
