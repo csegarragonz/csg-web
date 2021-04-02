@@ -22,5 +22,7 @@ jobs:
         with:
           push: false
           file: Dockerfile
+          build-args:
+            - JEKYLL_VERSION=4
           context: .
           tags: csegarragonz/web
