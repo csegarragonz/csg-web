@@ -18,6 +18,8 @@ fi
 VERSION=$(< VERSION)
 JEKYLL_VERSION=$(cat .env | head -1 | cut -d"=" -f2)
 
+export DOCKER_BUILDKIT=1
+
 docker build \
     ${NO_CACHE} \
     -t csg-website:${VERSION} \
