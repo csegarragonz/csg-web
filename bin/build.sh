@@ -14,9 +14,14 @@ else
     NO_CACHE=""
 fi
 
+# Versioning
+VERSION=$(< VERSION)
+JEKYLL_VERSION=$(cat .env | head -1 | cut -d"=" -f2)
+
 docker build \
     ${NO_CACHE} \
-    -t csg-website \
+    -t csg-website:${VERSION} \
+    --build-arg JEKYLL_VERSION=${JEKYLL_VERSION} \
     ${PROJ_ROOT} 
 
 popd >> /dev/null

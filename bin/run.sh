@@ -7,12 +7,15 @@ CLI_KEYS_DIR="/etc/letsencrypt/live/carlossegarra.com/"
 
 pushd ${PROJ_ROOT} >> /dev/null
 
+# Versioning
+VERSION=$(< VERSION)
+
 docker run -d \
     --name live-web \
     -v ${KEYS_DIR}/fullchain.pem:${CLI_KEYS_DIR}
     -v ${KEYS_DIR}/privkey.pem:${CLI_KEYS_DIR}
     -p 443:443 -p 80:80 \
-    csg-website
+    csg-website:${VERSION}
 
 popd >> /dev/null
 
