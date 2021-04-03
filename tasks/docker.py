@@ -1,7 +1,7 @@
 from invoke import task
 
 from subprocess import run
-from tasks.util.env import PROJ_ROOT, JEKYLL_VERSION
+from tasks.util.env import PROJ_ROOT, JEKYLL_VERSION, CONTAINER_NAME
 from tasks.util.version import get_version, get_docker_tag
 
 
@@ -37,3 +37,14 @@ def build(ctx, nocache=False, push=False):
         push_cmd = "docker push {}".format(get_docker_tag())
         print(push_cmd)
         run(push_cmd, shell=True, check=True, cwd=PROJ_ROOT)
+
+
+@task
+def stop(ctx, keep=False):
+    stop_cmd = "docker stop {}".format(CONTAINER_NAME)
+    print(stop_cmd)
+    run(docker_cmd, shell=True, check=True, cwd=PROJ_ROOT)
+    if not keep:
+        rm_cmd = "docker rm {}".format(CONTAINER_NAME)
+        print(rm_cmd)
+        run(rm_cmd, shell=True, check=True, cwd=PROJ_ROOT)
