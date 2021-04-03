@@ -1,10 +1,10 @@
 from invoke import task
 
-from os.path import exists, dirname, realpath
+from os.path import exists
 from subprocess import run
 from shutil import copyfile, rmtree
+from tasks.util.env import PROJ_ROOT
 
-PROJ_ROOT = dirname(dirname(realpath(__file__)))
 CV_DIR = "{}/{}".format(PROJ_ROOT, "CV")
 ASSETS_DIR = "{}/{}".format(PROJ_ROOT, "assets")
 
