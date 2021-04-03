@@ -61,5 +61,3 @@ def run_bg_invokeless():
     docker_cmd = " ".join(_docker_cmd)
     print(docker_cmd)
     run(docker_cmd, shell=True, check=True, cwd=PROJ_ROOT)
-
-
