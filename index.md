@@ -2,24 +2,22 @@
 layout: main_page
 ---
 
-<img class="profile-picture" src="assets/SegarraCarlos_IMG_cropped.jpg">
+I am a first year PhD student at the Large-Scale Data and Systems Group
+([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the
+supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
 
-I am a PhD candidate at the **[Large-Scale Data & Systems Group](https://lsds.doc.ic.ac.uk/)** from the Imperial College London under the supervision of [Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
-My research interests cover systems, security, containers, and virtualization.
+My research addresses the design and implementation of secure,
+high-performance, cloud-native runtimes.
+I am also interested in stochastic modeling, and the mathematics of randomness.
+Most of my work is open-source and available on
+[Github](https://github.com/csegarragonz).
 
-I am also doing research for the **Complex Systems Group** of the Institut d'Informatique of the Université de Neuchâtel (IIUN) and for the **Computer Architecture Department** of the Technical University of Catalonia.
+I received a MSc in advanced mathematics and mathematical engineering from the
+School of Mathematics of the Technical University of Catalonia (UPC).
+Previously, I also received a BSc in mathematics and a BSc in electrical
+engineering, from the same university.
 
 ---
-
-## About Me
-
-My main research interests lie in the broad area of **systems**, **security**, and **networking**, with a strong mathematical foundation.
-I am also highly interested in **formal methods**, verification and synthesis.
-
-As a researcher at the IIUN, and under the supervision of [Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/), I am actively doing research with [Trusted Execution Environments](https://en.wikipedia.org/wiki/Trusted_execution_environment), namely [Intel SGX](https://en.wikipedia.org/wiki/Software_Guard_Extensions) and [Arm TrustZone](https://developer.arm.com/ip-products/security-ip/trustzone), and working on network emulation tools with the [Angainor Project](https://angainor.science).
-
-For my MSc thesis, and with a grant of the [Department of Computer Architecture](https://www.ac.upc.edu/en/about-us), I am working on live migration of distributed container deployments using [checkpoint/restore](https://criu.org/Main_Page).
-You can follow the development of the project in the [Github repo](https://github.com/live-containers).
 
 ## Publications
 
