@@ -15,20 +15,29 @@ def print_output(stream):
         print(line.decode("utf-8"))
 
 
+def buildPush():
+    build_cmd = "inv docker.build --nocache --push"
+    print(build_cmd)
+    run(build_cmd, shell=True, check=True, cwd=PROJ_ROOT)
+
+
 @task(default=True)
 def deploy(ctx):
     """
     Deploy the remote web
     """
+    # Build and push container
+    buildPush()
+
     # Initialize the paramiko client
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(hostname="163.172.155.43", username="carlos", key_filename=KEY_FILENAME)
 
-    # Pull latest code
-    git_cmd = "cd {} && git pull origin master".format(REMOTE_DIR)
-    print("csg-paris: {}".format(git_cmd))
-    stdin, stdout, stderr = ssh.exec_command(git_cmd)
+    # Pull latest image
+    dock_cmd = "docker pull {}".format(get_docker_tag())
+    print("csg-paris: {}".format(dock_cmd))
+    stdin, stdout, stderr = ssh.exec_command(dock_cmd)
     print_output(stdout)
 
     # Stop previous docker image
