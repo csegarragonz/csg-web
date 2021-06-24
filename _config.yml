@@ -10,8 +10,8 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://carlossegarra.com/"
-footer_text: "Last update: 09/09/2020"
-favicon_location: 'favicon.ico'
+footer_text: "Last update: 24/06/2021"
+favicon_location: 'degree_icon.png'
 
 sass:
     style: compressed
