@@ -21,3 +21,7 @@ sudo cp /etc/letsencrypt/live/carlossegarra.com/fullchain.pem ./keys
 sudo cp /etc/letsencrypt/live/carlossegarra.com/privkey.pem ./keys
 ```
 
+And re-run the container:
+```bash
+python3 deploy_entrypoint.py
+```
