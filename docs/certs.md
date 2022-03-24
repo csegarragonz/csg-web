@@ -4,6 +4,8 @@ The website relies on HTTPS certificates released by Let's Encrypt certbot.
 Every now and then we need to renew them, until this does not become a cron, the
 steps to do so are:
 
+Before doing anything, SSH into the server machine and `cd ~/csg-web`.
+
 First, stop and remove the container
 ```
 docker stop live-web
