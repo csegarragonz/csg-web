@@ -3,8 +3,10 @@ layout: main_page
 ---
 
 I am a second year PhD student at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
+This summer I will intern at Intel Labs, with the trusted datacenter team.
 
-My research addresses the design and implementation of secure, high-performance, serverless runtimes.
+My research addresses the design and implementation of secure, high-performance, runtimes for the cloud.
+I am particularly interested in designing privacy-preserving runtimes with strong performance guarantees.
 Most of my work is open-source and available on [Github](https://github.com/csegarragonz).
 
 I received a MSc in advanced mathematics and mathematical engineering from the School of Mathematics of the Technical University of Catalonia (UPC).
@@ -80,3 +82,4 @@ C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schia
 * **Research Student** Workflows and Distributed Computing Group - Barcelona Supercomputing Center\\
   April 2017 - June 2018\\
   Supervisor: Rosa Badia
+

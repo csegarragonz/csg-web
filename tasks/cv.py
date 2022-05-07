@@ -11,7 +11,7 @@ ASSETS_DIR = "{}/{}".format(PROJ_ROOT, "assets")
 # Repo's CV information
 FILE_NAME = "SegarraCarlos_CV"
 REPO_NAME = "csg-projects/csg-cv"
-REPO_DIR = "short-w-images"
+REPO_DIR = "short"
 DOCKER_IMAGE = "moss/xelatex"
 LATEX_CMD = "xelatex"
 

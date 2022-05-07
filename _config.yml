@@ -10,7 +10,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://carlossegarra.com/"
-footer_text: "Last update: 24/06/2021"
+footer_text: "Last update: 07/05/2022"
 favicon_location: 'degree_icon.png'
 
 sass:
@@ -18,24 +18,26 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/"
+ - name: "Teaching"
+   link: "/teaching.html"
+ - name: "Service"
+   link: "/service.html"
+ - name: "Contact"
+   link: "/contact.html"
  - name: "Resume"
    link: "/assets/SegarraCarlos_CV.pdf"
- - name: "Contact"
-   link: "/contact"
 
 social-media:
   - id: 'carlos@carlossegarra.com'
     href: 'mailto:'
     title: 'Email'
     fa-icon: 'fa-envelope-square'
-  
+
   - id: 'carlossegarrag'
     href: 'https://www.twitter.com/'
     title: 'Twitter'
     fa-icon: 'fa-twitter-square'
-  
+
   - id: 'csegarragonz'
     href: 'https://github.com/'
     title: 'GitHub'
