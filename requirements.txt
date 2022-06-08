@@ -1,0 +1,2 @@
+invoke==1.7.1
+paramiko==2.11.0
