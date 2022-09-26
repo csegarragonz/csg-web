@@ -2,15 +2,15 @@
 layout: main_page
 ---
 
-I am a second year PhD student at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
-This summer I will intern at Intel Labs, with the trusted datacenter team.
+I am a third year PhD student at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
 
 My research addresses the design and implementation of secure, high-performance, runtimes for the cloud.
-I am particularly interested in designing privacy-preserving runtimes with strong performance guarantees.
+I am particularly interested in privacy-preserving systems and confidential computing.
 Most of my work is open-source and available on [Github](https://github.com/csegarragonz).
+During my PhD, I have interned with Intel Labs in the Datacenter security team.
 
-I received a MSc in advanced mathematics and mathematical engineering from the School of Mathematics of the Technical University of Catalonia (UPC).
-Previously, I also received a BSc in mathematics and a BSc in electrical engineering, from the same university.
+I received a MSc in advanced mathematics, a BSc in mathematics, and a BSc in electrical engineering from the Technical University of Catalonia (UPC).
+In the past, I have worked as a researcher for the Barcelona Supercomputing Center (BSC), Nokia Bell Labs, the Swiss Center of Electronics and Microtechnology (CSEM), the University of Neuchatel, and the UPC.
 
 ---
 
@@ -58,6 +58,10 @@ C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schia
 [[URI](http://hdl.handle.net/2117/169114) | [arXiv](broken) | [Cite]({{ site.url }}/assets/papers/SegarraGonzalez_Carlos_TFG.bib) | [PDF]({{ site.url }}/assets/papers/SegarraGonzalez_Carlos_TFG.pdf)]
 
 ## Work Experience
+
+* **Graduate Research Intern** Datacenter Security Team - Intel Labs \\
+  June 2022 - September 2022 \\
+  Supervisor: Mona Vij
 
 * **Research Collaborator** Computer Architecture Department - Technical University of Catalonia \\
   October 2019 - October 2020 \\
