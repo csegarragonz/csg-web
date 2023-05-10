@@ -35,6 +35,12 @@ C. Segarra, E. Muntan\'e, M. Lemay, V. Schiavoni, and  R. Delgado-Gonzalo \\
 C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schiavoni \\
 [[DOI](https://doi.org/10.1007/978-3-030-22496-7_6) | [arXiv](https://arxiv.org/abs/1906.07072) | [Cite]({{ site.url }}/assets/papers/DAIS2019_UsingTEE.bib) | [PDF]({{ site.url }}/assets/papers/DAIS2019_UsingTEE.pdf)]
 
+## Talks
+
+1. **Granny: Managing Compute-Intensive Cloud Applications using Granules** \\
+24/05/2023 - Oxford e-Research Center \\
+[[Url](https://oerc.ox.ac.uk/events/granny-managing-compute-intensive-cloud-applications-using-granules-carlos-segarra/) | [Slides](broken)]
+
 ## Education
 
 * **PhD in Computing** LargeScale Data & Systems Group - Imperial College London \\
