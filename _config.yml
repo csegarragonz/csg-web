@@ -18,8 +18,8 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Student Projects"
-   link: "/students.html"
+ - name: "Projects"
+   link: "/projects.html"
  - name: "Teaching"
    link: "/teaching.html"
  - name: "Service"

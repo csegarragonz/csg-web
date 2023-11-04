@@ -12,6 +12,10 @@ During my PhD, I have interned at Intel Labs and IBM Research.
 I received a MSc in advanced mathematics, a BSc in mathematics, and a BSc in electrical engineering from the Technical University of Catalonia (UPC).
 In the past, I have worked as a researcher for the Barcelona Supercomputing Center (BSC), Nokia Bell Labs, the Swiss Center of Electronics and Microtechnology (CSEM), the University of Neuchatel, and the UPC.
 
+Scroll down for my publications, and work experience. You may also check out
+my [current projects](https://carlossegarra.com/projects.html). If you are
+a student at Imperial, check out my [teaching page](https://carlossegarra.com/teaching.html).
+
 ---
 
 ## Publications
