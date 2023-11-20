@@ -26,7 +26,10 @@ def build_push():
 @task(default=True)
 def deploy(ctx):
     """
-    Deploy the website on the remote server
+    Manually deploy the website on the remote server
+
+    This method is unnecessary, as in general the changes to the website
+    are deployed using a GitHub action
     """
     # Build and push container
     build_push()
