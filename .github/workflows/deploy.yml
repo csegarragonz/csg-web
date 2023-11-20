@@ -19,8 +19,6 @@ jobs:
         uses: actions/checkout@v4
       - name: "Get tag version"
         run: echo "TAG_VERSION=$(cat ./VERSION)" >> $GITHUB_ENV
-      - name: "Copy the key material from the crontab dir"
-        run: cp -r /home/csegarra/csg-web/keys ./keys
       - name: "Set up QEMU"
         uses: docker/setup-qemu-action@v2
       - name: "Set up Docker Buildx"
