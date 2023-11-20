@@ -1,3 +1,4 @@
 black==22.8.0
 invoke==1.7.1
 paramiko==2.11.0
+python-language-server[all]
