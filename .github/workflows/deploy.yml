@@ -20,7 +20,9 @@ jobs:
       - name: "Get tag version"
         run: echo "TAG_VERSION=$(cat ./VERSION)" >> $GITHUB_ENV
       - name: "Update the last updated date"
-        run: ./bin/inv_wrapper.sh update.last-modified
+        run: |
+          ./bin/inv_wrapper.sh update.last-modified
+          cat _config.yml | grep "Last update:"
       - name: "Set up QEMU"
         uses: docker/setup-qemu-action@v2
       - name: "Set up Docker Buildx"

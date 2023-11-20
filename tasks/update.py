@@ -16,5 +16,4 @@ def last_modified(ctx):
     sed_cmd += "'s/^footer_text: \"Last update: .*$"
     sed_cmd += "/footer_text: \"Last update: {}\"/g'".format(current_date)
     sed_cmd += " {}".format(config_file)
-    print(sed_cmd)
     run(sed_cmd, shell=True, check=True)
