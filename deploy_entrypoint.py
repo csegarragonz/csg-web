@@ -1,4 +1,5 @@
 from subprocess import run
+from os import getgid, getuid
 from os.path import dirname, join, realpath
 
 PROJ_ROOT = dirname(realpath(__file__))
@@ -22,7 +23,7 @@ def run_bg_invokeless():
     _docker_cmd = [
         "docker run -d",
         "--name {}".format(WEB_CTR_NAME),
-        "-u csegarra:csegarra",
+        "-u {}:{}".format(getuid(), getgid()),
         "-v {}/fullchain.pem:{}/fullchain.pem".format(HOST_KEYS_DIR, CLI_KEYS_DIR),
         "-v {}/privkey.pem:{}/privkey.pem".format(HOST_KEYS_DIR, CLI_KEYS_DIR),
         "-p 443:443 -p 80:80",

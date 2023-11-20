@@ -37,3 +37,7 @@ jobs:
         run: docker rm -f live-web
       - name: "Deploy the website"
         run: python3 deploy_entrypoint.py
+      - name: "Assert that the container is running"
+        run: |
+          sleep 5
+          [ "$( docker container inspect -f '{{.State.Running}}' live-web )" = "true" ]
