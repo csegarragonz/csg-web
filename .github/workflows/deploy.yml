@@ -20,9 +20,7 @@ jobs:
       - name: "Get tag version"
         run: echo "TAG_VERSION=$(cat ./VERSION)" >> $GITHUB_ENV
       - name: "Update the last updated date"
-        run: |
-          ./bin/inv_wrapper.sh update.last-modified
-          cat _config.yml | grep "Last update:"
+        run: ./bin/inv_wrapper.sh update.last-modified
       - name: "Set up QEMU"
         uses: docker/setup-qemu-action@v2
       - name: "Set up Docker Buildx"
@@ -34,7 +32,7 @@ jobs:
           file: Dockerfile
           build-args: JEKYLL_VERSION=4
           context: .
-          tags: csegarragonz/web:${{ env.TAG_VERSION }}
+          tags: csegarragonz/csg-website:${{ env.TAG_VERSION }}
       - name: "Remove running versions of the contianer"
         run: docker rm -f live-web
       - name: "Deploy the website"
