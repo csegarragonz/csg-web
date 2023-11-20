@@ -1,0 +1,31 @@
+name: "Build and deploy the website"
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  build-ctr:
+    runs-on: self-hosted
+    steps:
+      - name: "Get the code"
+        uses: actions/checkout@v4
+      - name: "Get tag version"
+        run: echo "TAG_VERSION=$(cat ./VERSION)" >> $GITHUB_ENV
+      - name: "Set up QEMU"
+        uses: docker/setup-qemu-action@v2
+      - name: "Set up Docker Buildx"
+        uses: docker/setup-buildx-action@v2
+      - name: "Build the web container"
+        uses: docker/build-push-action@v3
+        with:
+          push: false
+          file: Dockerfile
+          build-args: JEKYLL_VERSION=4
+          context: .
+          tags: csegarragonz/web:${{ env.TAG_VERSION }}
+      - name: "Deploy the website"
+        uses: python3 deploy_entrypoint.py
