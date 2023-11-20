@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /service
+permalink: /pages/service
 ---
 
 ## Service

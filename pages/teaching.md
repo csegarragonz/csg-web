@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /teaching
+permalink: /pages/teaching
 ---
 
 ## Prospective Students

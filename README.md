@@ -14,3 +14,8 @@ inv -l
 
 then you may update any files locally, and push to GitHub. A GitHub action
 should take care of propagating the updates to the live website.
+
+## Updating Content
+
+The main page content lives in `./index.md`. Any other page lives in the
+`./pages` directory.

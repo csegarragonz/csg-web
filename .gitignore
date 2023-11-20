@@ -4,6 +4,7 @@ _site
 .DS_Store
 __pycache__
 SegarraCarlos_CV.pdf
+Gemfile.lock
 
 keys
 venv

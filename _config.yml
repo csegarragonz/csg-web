@@ -17,17 +17,19 @@ sass:
     style: compressed
     sass_dir: _sass
 
-nav:
- - name: "Projects"
-   link: "/projects.html"
- - name: "Teaching"
-   link: "/teaching.html"
- - name: "Service"
-   link: "/service.html"
- - name: "Contact"
-   link: "/contact.html"
- - name: "Resume"
-   link: "/assets/SegarraCarlos_CV.pdf"
+# 20/11/2023 - we comment out navigation options, but leave it commented here
+# just in case we ever want to re-enable it
+# nav:
+#  - name: "Projects"
+#    link: "/projects.html"
+#  - name: "Teaching"
+#    link: "/teaching.html"
+#  - name: "Service"
+#    link: "/service.html"
+#  - name: "Contact"
+#    link: "/contact.html"
+#  - name: "Resume"
+#    link: "/assets/SegarraCarlos_CV.pdf"
 
 social-media:
   - id: 'carlos@carlossegarra.com'

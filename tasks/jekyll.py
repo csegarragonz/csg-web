@@ -17,8 +17,6 @@ def serve(ctx):
         "docker run --rm",
         "--name live-web",
         "-v {}:/srv/jekyll".format(PROJ_ROOT),
-        "-v {}/fullchain.pem:{}/fullchain.pem".format(HOST_KEYS_DIR, CLI_KEYS_DIR),
-        "-v {}/privkey.pem:{}/privkey.pem".format(HOST_KEYS_DIR, CLI_KEYS_DIR),
         "-p 4000:4000",
         "-it jekyll/jekyll:{}".format(JEKYLL_VERSION),
         "jekyll serve --watch --drafts",
