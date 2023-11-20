@@ -2,8 +2,10 @@ from subprocess import run
 from os import getgid, getuid
 from os.path import dirname, join, realpath
 
+# Deliberately mount the keys dir to where the crontab script (in
+# ./bin/renew_certs.sh) points to
+HOST_KEYS_DIR = "/home/csegarra/csg-web/keys"
 PROJ_ROOT = dirname(realpath(__file__))
-HOST_KEYS_DIR = "{}/keys".format(PROJ_ROOT)
 CLI_KEYS_DIR = "/etc/letsencrypt/live/carlossegarra.com/"
 WEB_CTR_NAME = "live-web"
 
