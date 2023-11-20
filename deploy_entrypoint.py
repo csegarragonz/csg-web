@@ -1,5 +1,5 @@
 from subprocess import run
-from os.path import dirname, realpath
+from os.path import dirname, join, realpath
 
 PROJ_ROOT = dirname(dirname(dirname(realpath(__file__))))
 HOST_KEYS_DIR = "{}/keys".format(PROJ_ROOT)
@@ -8,7 +8,7 @@ WEB_CTR_NAME = "live-web"
 
 
 def get_docker_tag():
-    with open("VERSION", "r") as fh:
+    with open("{}".format(join(PROJ_ROOT, "VERSION")), "r") as fh:
         ver = fh.read()
         ver = ver.strip()
 
