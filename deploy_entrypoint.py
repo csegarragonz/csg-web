@@ -1,7 +1,7 @@
 from subprocess import run
 from os.path import dirname, join, realpath
 
-PROJ_ROOT = dirname(dirname(realpath(__file__)))
+PROJ_ROOT = dirname(realpath(__file__))
 HOST_KEYS_DIR = "{}/keys".format(PROJ_ROOT)
 CLI_KEYS_DIR = "/etc/letsencrypt/live/carlossegarra.com/"
 WEB_CTR_NAME = "live-web"
