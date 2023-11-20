@@ -19,6 +19,8 @@ jobs:
         uses: actions/checkout@v4
       - name: "Get tag version"
         run: echo "TAG_VERSION=$(cat ./VERSION)" >> $GITHUB_ENV
+      - name: "Update the last updated date"
+        run: ./bin/inv_wrapper.sh update.last-modified
       - name: "Set up QEMU"
         uses: docker/setup-qemu-action@v2
       - name: "Set up Docker Buildx"

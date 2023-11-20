@@ -8,6 +8,8 @@ To do any changes, activate the virtual environment:
 
 ```bash
 source ./bin/workon.sh
+
+inv -l
 ```
 
 then you may update any files locally, and push to GitHub. A GitHub action
