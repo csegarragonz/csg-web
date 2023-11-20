@@ -21,8 +21,8 @@ certbot -q renew --standalone
 # Copy keys into the web directory
 KEYS_DIR=${WEB_DIR}/keys
 mkdir -p ${KEYS_DIR}
-cp /etc/letsencrypt/live/carlossegarra.com/fullchain.pem ${KEYS_DIR}
-cp /etc/letsencrypt/live/carlossegarra.com/privkey.pem ${KEYS_DIR}
+cp /etc/letsencrypt/live/carlossegarra.com/fullchain.pem ${KEYS_DIR}/fullchain.pem
+cp /etc/letsencrypt/live/carlossegarra.com/privkey.pem ${KEYS_DIR}/privkey.pem
 
 # Give the right permissions
 chown -R csegarra:csegarra ${KEYS_DIR}
