@@ -43,7 +43,7 @@ def deploy(ctx):
     print_output(stdout)
 
     # Prepare the remote environment
-    clean_cmd = "cd {} && git pull origin main && docker rm -f {}".format(REMOTE_DIR, REMOTE_DIR, CONTAINER_NAME)
+    clean_cmd = "cd {} && git pull origin main && docker rm -f {}".format(REMOTE_DIR, CONTAINER_NAME)
     print("csg-paris: {}".format(clean_cmd))
     stdin, stdout, stderr = ssh.exec_command(clean_cmd)
     print_output(stdout)
