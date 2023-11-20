@@ -31,5 +31,7 @@ jobs:
           build-args: JEKYLL_VERSION=4
           context: .
           tags: csegarragonz/web:${{ env.TAG_VERSION }}
+      - name: "Remove running versions of the contianer"
+        run: docker rm -f live-web
       - name: "Deploy the website"
         run: python3 deploy_entrypoint.py

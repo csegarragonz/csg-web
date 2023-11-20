@@ -1,4 +1,4 @@
-# CSG Website Reloaded
+# CSG Website [![Build and Deploy](https://github.com/csegarragonz/csg-web/actions/workflows/deploy.yml/badge.svg)](https://github.com/csegarragonz/csg-web/actions/workflows/deploy.yml)
 
 Newer version, way simpler, way easier, way less dependencies.
 
