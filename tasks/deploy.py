@@ -3,8 +3,8 @@ from invoke import task
 import paramiko
 
 from subprocess import run
-from tasks.util.env import PROJ_ROOT, JEKYLL_VERSION, CONTAINER_NAME
-from tasks.util.version import get_version, get_docker_tag
+from tasks.util.env import PROJ_ROOT, CONTAINER_NAME
+from tasks.util.version import get_docker_tag
 
 KEY_FILENAME = "/home/csegarra/.ssh/id_rsa"
 SERVER_IP = "163.172.177.63"
