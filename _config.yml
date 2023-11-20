@@ -57,3 +57,20 @@ social-media:
     title: 'Google Scholar'
     fa-icon: 'fa-university'
 
+publications:
+  - title: "Kollaps: Decentralized and Dynamic Topology Emulation"
+    venue: EuroSys
+    year: 2020
+    authors:
+      - "Paulo Gouveia"
+      - "Joao Neves"
+      - "Carlos Segarra"
+      - "Luca Liechti"
+      - "Shady Issa"
+      - "Valerio Schiavoni"
+      - "Miguel Matos"
+    doi: broken
+    arxiv: broken
+    cite: broken
+    pdf: broken
+

@@ -24,3 +24,10 @@ C. Segarra, E. Muntan\'e, M. Lemay, V. Schiavoni, and  R. Delgado-Gonzalo \\
 C. Segarra, R. Delgado-Gonzalo, M. Lemay, P-L. Aublin, P. Pietzuch, and V. Schiavoni \\
 [[DOI](https://doi.org/10.1007/978-3-030-22496-7_6) | [arXiv](https://arxiv.org/abs/1906.07072) | [Cite]({{ site.url }}/assets/papers/DAIS2019_UsingTEE.bib) | [PDF]({{ site.url }}/assets/papers/DAIS2019_UsingTEE.pdf)]
 
+## Publications
+
+{% for publication in site.publications %}
+1. **[{{ publication.venue}} {{ publication.year }}] {{ publication.title }}** \\
+{% for author in publication.authors %}
+{% assign names = author | split: ' ' %}{% if forloop.index > 1 %}, {% endif %}{{names[0]}} {{names[1]}}{% endfor %}
+{% endfor %}
