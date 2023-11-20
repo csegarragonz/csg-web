@@ -7,8 +7,12 @@ on:
     branches: [main]
     types: [opened, synchronize, reopened, ready_for_review]
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
-  build-ctr:
+  deploy-web:
     runs-on: self-hosted
     steps:
       - name: "Get the code"
@@ -28,4 +32,4 @@ jobs:
           context: .
           tags: csegarragonz/web:${{ env.TAG_VERSION }}
       - name: "Deploy the website"
-        uses: python3 deploy_entrypoint.py
+        run: python3 deploy_entrypoint.py
