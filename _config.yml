@@ -168,3 +168,29 @@ Kollaps is fully decentralized, agnostic of the application language and transpo
     pdf: "{{ site.url }}/assets/papers/DAIS2019_UsingTEE.pdf"
     abstract: " Processing sensitive data, such as those produced by body sensors, on third-party untrusted clouds is particularly challenging without compromising the privacy of the users generating it. Typically, these sensors generate large quantities of continuous data in a streaming fashion. Such vast amount of data must be processed efficiently and securely, even under strong adversarial models. The recent introduction in the mass-market of consumer-grade processors with Trusted Execution Environments (TEEs), such as Intel SGX, paves the way to implement solutions that overcome less flexible approaches, such as those atop homomorphic encryption. We present a secure streaming processing system built on top of Intel SGX to showcase the viability of this approach with a system specifically fitted for medical data. We design and fully implement a prototype system that we evaluate with several realistic datasets. Our experimental results show that the proposed system achieves modest overhead compared to vanilla Spark while offering additional protection guarantees under powerful attackers and threat models.
 "
+
+talks:
+  - project: "Serverless Confidential Containers: Challenges and Opportunities"
+    talks:
+      - date: "11/12/2023"
+        venue: "Workshop on Serverless Computing (WOSC9)"
+        url: "https://www.serverlesscomputing.org/wosc9/demos/d20"
+        slides: "{{ site.url }}/assets/talks/CoCo_Serverless_WOSC.pptx"
+      - date: "07/12/2023"
+        venue: "Kata Containers CoCo Community Meeting"
+        url: "https://docs.google.com/document/d/1E3GLCzNgrcigUlgWAZYlgqNTdVwiMwCRTJ0QnJhLZGA/edit#heading=h.tq3g88t4cu45"
+        slides: "{{ site.url }}/assets/talks/CoCo_Serverless_KataCM.pdf"
+      - date: "16/11/2023"
+        venue: "IBM Research TJ Watson"
+        url: "broken"
+        slides: "broken"
+  - project: "Granny: Granular Management of Scientific Applications in the Cloud"
+    talks:
+      - date: "05/10/2023"
+        venue: "IBM Research TJ Watson"
+        url: "broken"
+        slides: "broken"
+      - date: "24/05/2023"
+        venue: "Oxford e-Research Center"
+        url: "https://oerc.ox.ac.uk/events/granny-managing-compute-intensive-cloud-applications-using-granules-carlos-segarra/"
+        slides: "broken"
