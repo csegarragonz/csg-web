@@ -58,6 +58,25 @@ social-media:
     fa-icon: 'fa-university'
 
 publications:
+  - title: "Serverless Confidential Containers: Challenges and Opportunities"
+    venue: "SESAME @ EuroSys"
+    year: 2024
+    authors:
+      - "Carlos Segarra"
+      - "Tobin Feldman-Fitzthum"
+      - "Daniele Buono"
+      - "Peter Pietzuch"
+    doi: "https://dl.acm.org/doi/10.1145/3642977.3652097"
+    arxiv: "none"
+    cite: "{{ site.url }}/assets/papers/SESAME2024_ServerlessCoCo.bib"
+    pdf: "{{ site.url }}/assets/papers/SESAME2024_ServerlessCoCo.pdf"
+    abstract: "Serverless computing allows users to execute pieces of code (so called functions) on-demand in the cloud without having to provision any hardware resources. However, by executing in the cloud and delegating control over hardware resources, the integrity of the execution and the confidentiality of function code and data are at the mercy of the cloud provider and serverless runtime. Confidential computing aims to remove trust from the cloud provider by executing applications inside hardware enclaves. In spite of the increasing adoption of confidential computing, designing a confidential serverless runtime with moderate performance overhead remains an open challenge.
+<br />
+<br />
+
+In this short article we present our experience porting the Knative serverless runtime to a confidential setting using Confidential Containers (CoCo), a technology that allows the execution of unmodified (encrypted) container images inside confidential VMs (cVMs). Our results show that cVMs are not ready to execute container-based serverless functions. Starting a serverless function in a CoCo from an encrypted container image with attestation takes up to 17 seconds. Starting 16 serverless functions concurrently takes more than three minutes, 20× slower than its non-confidential counterpart. We analyze the main sources of overhead, and outline the research challenges to bridge the gap between confidential and serverless computing.
+"
+
   - title: "A Novel Framework for the Analysis of Unknown Transactions in Bitcoin: Theory, Model, and Experimental Results"
     venue: BITCOIN
     year: 2021
