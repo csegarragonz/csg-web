@@ -57,6 +57,25 @@ social-media:
     title: 'Google Scholar'
     fa-icon: 'fa-university'
 
+preprints:
+  - title: "Faabric: Fine-Grained Distribution of Scientific Workloads in the Cloud"
+    year: 2023
+    authors:
+      - "Simon Shillaker"
+      - "Carlos Segarra"
+      - "Eleftheria Mappoura"
+      - "Mayeul Fournial"
+      - "Llu\'is Vilanova"
+      - "Peter Pietzuch"
+    arxiv: "https://arxiv.org/abs/2302.11358"
+    pdf: "{{ site.url }}/assets/papers/arXiv2023_Faabric.pdf"
+    abstract: "With their high parallelism and resource needs, many scientific applications benefit from cloud deployments. Today, scientific applications are executed on dedicated pools of VMs, resulting in resource fragmentation: users pay for underutilised resources, and providers cannot reallocate unused resources between applications. While serverless cloud computing could address these issues, its programming model is incompatible with the use of shared memory and message passing in scientific applications: serverless functions do not share memory directly on the same VM or support message passing semantics when scheduling functions dynamically.
+<br />
+<br />
+
+We describe Faabric, a new serverless cloud runtime that transparently distributes applications with shared memory and message passing across VMs. Faabric achieves this by scheduling computation in a fine-grained (thread/process) fashion through a new execution abstraction called Granules. To support shared memory, Granules are isolated using WebAssembly but share memory directly; to support message passing, Granules offer asynchronous point-to-point communication. Faabric schedules Granules to meet an application's parallelism needs. It also synchronises changes to Granule's shared memory, and migrates Granules to improve locality.
+"
+
 publications:
   - title: "Serverless Confidential Containers: Challenges and Opportunities"
     venue: "SESAME @ EuroSys"
