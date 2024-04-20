@@ -65,7 +65,7 @@ preprints:
       - "Carlos Segarra"
       - "Eleftheria Mappoura"
       - "Mayeul Fournial"
-      - "Llu\'is Vilanova"
+      - "Lluis Vilanova"
       - "Peter Pietzuch"
     arxiv: "https://arxiv.org/abs/2302.11358"
     pdf: "{{ site.url }}/assets/papers/arXiv2023_Faabric.pdf"
