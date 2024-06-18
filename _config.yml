@@ -210,6 +210,10 @@ Kollaps is fully decentralized, agnostic of the application language and transpo
 talks:
   - project: "Serverless Confidential Containers: Challenges and Opportunities"
     talks:
+      - date: "18/06/2024"
+        venue: "Intelligent Serverless and Cloud Applications Symposium"
+        url: "http://iscas.servicelaboratory.ch/#cs"
+        slides: "{{ site.url }}/assets/talks/CoCo_Serverless_ISCA.pptx"
       - date: "11/12/2023"
         venue: "Workshop on Serverless Computing (WOSC9)"
         url: "https://www.serverlesscomputing.org/wosc9/demos/d20"
