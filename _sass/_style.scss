@@ -11,8 +11,9 @@ html {
 }
 body {
     margin: 0;
-    font-family: "Inconsolata";
+    font-family: "Courier New", monospace;
     height: 100%;
+    font-size: 14px
 }
 a {
     text-decoration: none;
@@ -20,12 +21,15 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    background-color: #c4c3be
 }
 hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: $max-width;
+    background-color: black;
 }
 
 /*
@@ -35,6 +39,11 @@ hr {
 #author-name {
     font-size: 30px;
     color: #272727;
+    display: inline-block;
+}
+#back-to-home {
+    font-size: 30px;
+    color: #0000FF;
     display: inline-block;
 }
 .navbar {
@@ -75,8 +84,15 @@ hr {
 /* Expandable sections */
 
 details {
-  margin: 0;
-  padding: 0;
+  border: 2px solid #000;
+  padding: 10px;
+}
+details:hover {
+  background-color: #c4c3be
+}
+
+summary {
+  cursor: pointer
 }
 
 /* Institute Image */

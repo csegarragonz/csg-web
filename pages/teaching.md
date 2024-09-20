@@ -12,14 +12,27 @@ You may also take a look to past student's projects below.
 
 ### Past Student Projects
 
-I have supervised the following students during their MSc's projects:
-* Hyunhoi Koo (11/2022-06/2023): Django Unchained: Serverless APIs with Django and Faasm
-* Max Mathys (w/ ETH Zurich, 05/2022-11/2022): WasmCR: Design and Implementation of Snapshots for WebAssembly Modules
+I have supervised the following students during their final-year projects:
+* [MSc] Ivan Durev (03/2024 - 09/2024): Optimized Image Management for Confidential Containers
+* [MEng] Konstantinos Sougioultzoglou (11/2023 - 06/2024): Optimized Image Management for Confidential Containers
+* [MEng] Ashvin Arsakularatne (11/2023 - 06/2024): Faster cVM Provisioning for Confidential Serverless
+* [MEng] Hyunhoi Koo (11/2022-06/2023): Django Unchained: Serverless APIs with Django and Faasm
+* [MSc] Max Mathys (w/ ETH Zurich, 05/2022-11/2022): WasmCR: Design and Implementation of Snapshots for WebAssembly Modules
 
 ## Teaching
 
 As part of my PhD at Imperial, I have been involved in the following teaching
 activities as a Teaching Assistant.
+
+### Fall Term 2024-2025
+
+* BSc Computing (3rd Year): Data Processing Systems
+* BSc Computing (3rd Year): Networked Systems
+
+### Spring Term 2023-2024
+
+* BSc Computing (2nd Year): Operating Systems
+* BSc Computing (3rd Year): Systems Performance Engineering
 
 ### Spring Term 2022-2023
 

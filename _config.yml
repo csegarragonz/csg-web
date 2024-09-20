@@ -57,6 +57,7 @@ social-media:
     title: 'Google Scholar'
     fa-icon: 'fa-university'
 
+# Note that the `pdf` is the name of the file under ./assets/papers/
 preprints:
   - title: "Faabric: Fine-Grained Distribution of Scientific Workloads in the Cloud"
     year: 2023
@@ -67,8 +68,7 @@ preprints:
       - "Mayeul Fournial"
       - "Lluis Vilanova"
       - "Peter Pietzuch"
-    arxiv: "https://arxiv.org/abs/2302.11358"
-    pdf: "{{ site.url }}/assets/papers/arXiv2023_Faabric.pdf"
+    pdf: "arXiv2023_Faabric.pdf"
     abstract: "With their high parallelism and resource needs, many scientific applications benefit from cloud deployments. Today, scientific applications are executed on dedicated pools of VMs, resulting in resource fragmentation: users pay for underutilised resources, and providers cannot reallocate unused resources between applications. While serverless cloud computing could address these issues, its programming model is incompatible with the use of shared memory and message passing in scientific applications: serverless functions do not share memory directly on the same VM or support message passing semantics when scheduling functions dynamically.
 <br />
 <br />
@@ -76,6 +76,7 @@ preprints:
 We describe Faabric, a new serverless cloud runtime that transparently distributes applications with shared memory and message passing across VMs. Faabric achieves this by scheduling computation in a fine-grained (thread/process) fashion through a new execution abstraction called Granules. To support shared memory, Granules are isolated using WebAssembly but share memory directly; to support message passing, Granules offer asynchronous point-to-point communication. Faabric schedules Granules to meet an application's parallelism needs. It also synchronises changes to Granule's shared memory, and migrates Granules to improve locality.
 "
 
+# Note that the `pdf` is the name of the file under ./assets/papers/
 publications:
   - title: "Serverless Confidential Containers: Challenges and Opportunities"
     venue: "SESAME @ EuroSys"
@@ -85,10 +86,7 @@ publications:
       - "Tobin Feldman-Fitzthum"
       - "Daniele Buono"
       - "Peter Pietzuch"
-    doi: "https://dl.acm.org/doi/10.1145/3642977.3652097"
-    arxiv: "none"
-    cite: "{{ site.url }}/assets/papers/SESAME2024_ServerlessCoCo.bib"
-    pdf: "{{ site.url }}/assets/papers/SESAME2024_ServerlessCoCo.pdf"
+    pdf: "SESAME2024_ServerlessCoCo.pdf"
     abstract: "Serverless computing allows users to execute pieces of code (so called functions) on-demand in the cloud without having to provision any hardware resources. However, by executing in the cloud and delegating control over hardware resources, the integrity of the execution and the confidentiality of function code and data are at the mercy of the cloud provider and serverless runtime. Confidential computing aims to remove trust from the cloud provider by executing applications inside hardware enclaves. In spite of the increasing adoption of confidential computing, designing a confidential serverless runtime with moderate performance overhead remains an open challenge.
 <br />
 <br />
@@ -105,10 +103,7 @@ In this short article we present our experience porting the Knative serverless r
       - "Matteo Signorini"
       - "Carlos Segarra"
       - "Roberto Pietro"
-    doi: "https://doi.org/10.48550/arXiv.2103.09459"
-    arxiv: "https://arxiv.org/pdf/2103.09459.pdf"
-    cite: "{{ site.url }}/assets/papers/BITCOIN2021_CENTRIC.bib"
-    pdf: "{{ site.url }}/assets/papers/BITCOIN2021_CENTRIC.pdf"
+    pdf: "BITCOIN2021_CENTRIC.pdf"
     abstract: "Bitcoin (BTC) is probably the most transparent payment network in the world, thanks to the full history of transactions available to the public. Though, Bitcoin is not a fully anonymous environment, rather a pseudonymous one, accounting for a number of attempts to beat its pseudonimity using clustering techniques. There is, however, a recurring assumption in all the cited deanonymization techniques: that each transaction output has an address attached to it. That assumption is false. An evidence is that, as of block height 591,872, there are several millions transactions with at least one output for which the Bitcoin Core client cannot infer an address.
 <br />
 <br />
@@ -123,10 +118,7 @@ In this paper, we present a novel approach based on sound graph theory for ident
       - "Carlos Segarra"
       - "Ricard Delgado-Gonzalo"
       - "Valerio Schiavoni"
-    doi: "http://dx.doi.org/10.1109/SRDS51746.2020.00033"
-    arxiv: "http://arxiv.org/abs/2007.12442"
-    cite: "{{ site.url }}/assets/papers/MQTTZSRDS2020.bib"
-    pdf: "{{ site.url }}/assets/papers/MQTTZSRDS.pdf"
+    pdf: "SRDS2020_MQTTZ.pdf"
     abstract: "The publish-subscribe paradigm is an efficient communication scheme with strong decoupling between the nodes, that is especially fit for large-scale deployments. It adapts natively to very dynamic settings and it is used in a diversity of real-world scenarios, including finance, smart cities, medical environments, or IoT sensors. Several of the mentioned application scenarios require increasingly stringent security guarantees due to the sensitive nature of the exchanged messages as well as the privacy demands of the clients/stakeholders/receivers. MQTT is a lightweight topic-based publish-subscribe protocol popular in edge and IoT settings, a de-facto standard widely adopted nowadays by the industry and researchers. However, MQTT brokers must process data in clear, hence exposing a large attack surface.
 <br />
 <br />
@@ -145,10 +137,7 @@ This paper presents MQT-TZ, a secure MQTT broker leveraging ARM TRUSTZONE, a tru
       - "Shady Issa"
       - "Valerio Schiavoni"
       - "Miguel Matos"
-    doi: "https://dl.acm.org/doi/abs/10.1145/3342195.3387540"
-    arxiv: "https://arxiv.org/abs/2004.02253"
-    cite: "{{ site.url }}/assets/papers/EUROSYS2020_Kollaps.bib"
-    pdf: "{{ site.url }}/assets/papers/EUROSYS2020_Kollaps.pdf"
+    pdf: "EUROSYS2020_Kollaps.pdf"
     abstract: "The performance and behavior of large-scale distributed applications is highly influenced by network properties such as latency, bandwidth, packet loss, and jitter. For instance, an engineer might need to answer questions such as: What is the impact of an increase in network latency in application response time? How does moving a cluster between geographical regions affect application throughput? How network dynamics affects application stability? Answering these questions in a systematic and reproducible way is very hard, given the variability and lack of control over the underlying network. Unfortunately, state-of-the-art network emulation or testbeds scale poorly (i.e., MiniNet), focus exclusively on the control-plane (i.e., CrystalNet) or ignore network dynamics (i.e., EmuLab).
 <br />
 <br />
@@ -167,10 +156,7 @@ Kollaps is fully decentralized, agnostic of the application language and transpo
       - "Carlos Segarra"
       - "Ricard Delgado-Gonzalo"
       - "Valerio Schiavoni"
-    doi: "https://doi.org/10.3233/shti200177"
-    arxiv: "https://arxiv.org/abs/2007.01555"
-    cite: "{{ site.url }}/assets/papers/MIE2020_MQTTZ.bib"
-    pdf: "{{ site.url }}/assets/papers/MIE2020_MQTTZ.pdf"
+    pdf: "MIE2020_MQTTZ.pdf"
     abstract: "Physical health records belong to healthcare providers, but the information contained within belongs to each patient. In an increasing manner, more health-related data is being acquired by wearables and other IoT devices following the ever-increasing trend of the Quantified Self. Even though data protection regulations (e.g., GDPR) encourage the usage of privacy-preserving processing techniques, most of the current IoT infrastructure was not originally conceived for such purposes. One of the most used communication protocols, MQTT, is a lightweight publish-subscribe protocol commonly used in the Edge and IoT applications. In MQTT, the broker must process data on clear text, hence exposing a large attack surface for a malicious agent to steal/tamper with this health-related data. In this paper, we introduce MQT-TZ, a secure MQTT broker leveraging Arm TRUSTZONE, a popular Trusted Execution Environment (TEE). We define a mutual TLS-based handshake and a two-layer encryption for end-to-end security using the TEE as a trusted proxy. We provide quantitative evaluation of our open-source PoC on streaming ECGs in real time and highlight the trade-offs.
 "
 
@@ -183,10 +169,7 @@ Kollaps is fully decentralized, agnostic of the application language and transpo
       - "Mathieu Lemay"
       - "Valerio Schiavoni"
       - "Ricard Delgado-Gonzalo"
-    doi: "https://doi.org/10.1109/EMBC.2019.8856334"
-    arxiv: "https://arxiv.org/abs/1907.12242"
-    cite: "{{ site.url }}/assets/papers/EMBC2019_SecureStreamProcessing.bib"
-    pdf: "{{ site.url }}/assets/papers/EMBC2019_SecureStreamProcessing.pdf"
+    pdf: "EMBC2019_SecureStreamProcessing.pdf"
     abstract: "Medical data belongs to whom it produces it. In an increasing manner, this data is usually processed in unauthorized third-party clouds that should never have the opportunity to access it. Moreover, recent data protection regulations (e.g., GDPR) pave the way towards the development of privacy-preserving processing techniques. In this paper, we present a proof of concept of a streaming IoT architecture that securely processes cardiac data in the cloud combining trusted hardware and Spark. The additional security guarantees come with no changes to the application’s code in the server. We tested the system with a database containing ECGs from wearable devices comprised of 8 healthy males performing a standardized range of in-lab physical activities (e.g., run, walk, bike). We show that, when compared with standard SPARK STREAMING, the addition of privacy comes at the cost of doubling the execution time.
 "
 
@@ -200,28 +183,26 @@ Kollaps is fully decentralized, agnostic of the application language and transpo
       - "Pierre-Louis Aublin"
       - "Peter Pietzuch"
       - "Valerio Schiavoni"
-    doi: "https://doi.org/10.1007/978-3-030-22496-7_6"
-    arxiv: "https://arxiv.org/abs/1906.07072"
-    cite: "{{ site.url }}/assets/papers/DAIS2019_UsingTEE.bib"
-    pdf: "{{ site.url }}/assets/papers/DAIS2019_UsingTEE.pdf"
+    pdf: "DAIS2019_UsingTEE.pdf"
     abstract: " Processing sensitive data, such as those produced by body sensors, on third-party untrusted clouds is particularly challenging without compromising the privacy of the users generating it. Typically, these sensors generate large quantities of continuous data in a streaming fashion. Such vast amount of data must be processed efficiently and securely, even under strong adversarial models. The recent introduction in the mass-market of consumer-grade processors with Trusted Execution Environments (TEEs), such as Intel SGX, paves the way to implement solutions that overcome less flexible approaches, such as those atop homomorphic encryption. We present a secure streaming processing system built on top of Intel SGX to showcase the viability of this approach with a system specifically fitted for medical data. We design and fully implement a prototype system that we evaluate with several realistic datasets. Our experimental results show that the proposed system achieves modest overhead compared to vanilla Spark while offering additional protection guarantees under powerful attackers and threat models.
 "
 
+# Talks slides must be the name of the pdf under `./assets/talks`
 talks:
   - project: "Serverless Confidential Containers: Challenges and Opportunities"
     talks:
       - date: "18/06/2024"
         venue: "Intelligent Serverless and Cloud Applications Symposium"
         url: "http://iscas.servicelaboratory.ch/#cs"
-        slides: "{{ site.url }}/assets/talks/CoCo_Serverless_ISCA.pptx"
+        slides: "CoCo_Serverless_ISCA.pptx"
       - date: "11/12/2023"
         venue: "Workshop on Serverless Computing (WOSC9)"
         url: "https://www.serverlesscomputing.org/wosc9/demos/d20"
-        slides: "{{ site.url }}/assets/talks/CoCo_Serverless_WOSC.pptx"
+        slides: "CoCo_Serverless_WOSC.pptx"
       - date: "07/12/2023"
         venue: "Kata Containers CoCo Community Meeting"
         url: "https://docs.google.com/document/d/1E3GLCzNgrcigUlgWAZYlgqNTdVwiMwCRTJ0QnJhLZGA/edit#heading=h.tq3g88t4cu45"
-        slides: "{{ site.url }}/assets/talks/CoCo_Serverless_KataCM.pdf"
+        slides: "CoCo_Serverless_KataCM.pdf"
       - date: "16/11/2023"
         venue: "IBM Research TJ Watson"
         url: "broken"
