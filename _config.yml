@@ -78,6 +78,21 @@ We describe Faabric, a new serverless cloud runtime that transparently distribut
 
 # Note that the `pdf` is the name of the file under ./assets/papers/
 publications:
+  - title: "Is It Time To Put Cold Starts In The Deep Freeze?"
+    venue: "SoCC"
+    year: 2024
+    authors:
+      - "Carlos Segarra"
+      - "Ivan Durev"
+      - "Peter Pietzuch"
+    pdf: "socc24-dfaas.pdf"
+    abstract: "Cold-start times have been the \"end-all, be-all\" metric for research in serverless cloud computing over the past decade. Reducing the impact of cold starts matters, because they can be the biggest contributor to a serverless function's end-to-end execution time. Recent studies from cloud providers, however, indicate that, in practice, a majority of serverless functions are triggered by non-interactive workloads. To substantiate this, we study the types of serverless functions used in 35 publications and find that over 80% of functions are not semantically latency sensitive. If a function is non-interactive and latency insensitive, is end-to-end execution time the right metric to optimize in serverless? What if cold starts do not matter that much, after all?
+<br />
+<br />
+
+In this vision paper, we explore what serverless environments in which cold starts do not matter would look like. We make the case that serverless research should focus on supporting latency insensitive, batch, workloads. Based on this, we explore the design space for DFaaS, a serverless framework with an execution model in which functions can be arbitrarily delayed. DFaaS users annotate each function with a delay tolerance and, as long as the deadline has not passed, the runtime may interrupt or migrate function execution. Our micro-benchmarks suggest that, by targeting batch workloads, DFaaS can improve substantially the resource usage of serverless clouds and lower costs for users.
+"
+
   - title: "Serverless Confidential Containers: Challenges and Opportunities"
     venue: "SESAME @ EuroSys"
     year: 2024
