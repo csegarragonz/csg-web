@@ -2,7 +2,7 @@
 layout: main_page
 ---
 
-I am a last year PhD student at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
+I am a final-year PhD student at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
 
 My research addresses the design and implementation of secure, high-performance, runtimes for the cloud.
 I am particularly interested in serverless and confidential computing.
