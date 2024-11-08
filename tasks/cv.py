@@ -25,7 +25,7 @@ def update(ctx):
         pass
 
     # Clone repository
-    git_cmd = "git clone git@github.com:{}.git {}".format(REPO_NAME, CV_DIR)
+    git_cmd = "git clone https://github.com/{}.git {}".format(REPO_NAME, CV_DIR)
     print(git_cmd)
     run(git_cmd, shell=True, cwd=PROJ_ROOT, check=True)
 
