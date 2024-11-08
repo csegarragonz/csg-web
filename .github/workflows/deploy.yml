@@ -21,6 +21,8 @@ jobs:
         run: echo "TAG_VERSION=$(cat ./VERSION)" >> $GITHUB_ENV
       - name: "Update the last updated date"
         run: ./bin/inv_wrapper.sh update.last-modified
+      - name: "Update CV"
+        run: ./bin/inv_wrapper.sh cv
       - name: "Set up QEMU"
         uses: docker/setup-qemu-action@v2
       - name: "Set up Docker Buildx"
