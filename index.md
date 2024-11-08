@@ -20,7 +20,7 @@ For further details, follow any of the following links:\\
 [/service](/pages/service.html) - service in academic conferences.\\
 [/projects](/pages/projects.html) - past and current research projects.\\
 [/teaching](/pages/teaching.html) - teaching and mentoring experience.\\
-[/cv](/assets/SegarraCarlos_CV.pdf) - up-to-date CV.
+[/cv]({{ /assets/SegarraCarlos_CV.pdf | relative_url }}) - up-to-date CV.
 
 You may contact me at `carlos [at] carlossegarra.com` for personal purposes, or
 `cs1620 [at] ic.ac.uk` for academic purposes.

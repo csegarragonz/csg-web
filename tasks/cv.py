@@ -1,6 +1,5 @@
 from invoke import task
-
-from os.path import exists
+from os.path import join
 from subprocess import run
 from shutil import copyfile, rmtree
 from tasks.util.env import PROJ_ROOT
@@ -10,10 +9,8 @@ ASSETS_DIR = "{}/{}".format(PROJ_ROOT, "assets")
 
 # Repo's CV information
 FILE_NAME = "SegarraCarlos_CV"
-REPO_NAME = "csg-projects/csg-cv"
-REPO_DIR = "short"
-DOCKER_IMAGE = "moss/xelatex"
-LATEX_CMD = "xelatex"
+REPO_NAME = "csegarragonz/csg-cv"
+REPO_DIR = "academic"
 
 
 @task(default=True)
@@ -33,20 +30,11 @@ def update(ctx):
     run(git_cmd, shell=True, cwd=PROJ_ROOT, check=True)
 
     # Compile the CV
-    _docker_cmd = [
-        "docker run --rm",
-        "-v {}/{}:/work".format(CV_DIR, REPO_DIR),
-        "--user 1000:1000",
-        "-w /work",
-        "{} {}".format(DOCKER_IMAGE, LATEX_CMD),
-        "{}.tex".format(FILE_NAME),
-    ]
-    docker_cmd = " ".join(_docker_cmd)
-    print(docker_cmd)
-    run(docker_cmd, shell=True, cwd=PROJ_ROOT, check=True)
+    academic_cv_dir = join(CV_DIR, REPO_DIR)
+    run("make", shell=True, cwd=academic_cv_dir, check=True)
 
     # Copy the file and remove cleanup
-    src_path = "{}/{}/{}.pdf".format(CV_DIR, REPO_DIR, FILE_NAME)
+    src_path = join(academic_cv_dir, f"{FILE_NAME}.pdf")
     dst_path = "{}/{}.pdf".format(ASSETS_DIR, FILE_NAME)
     copyfile(src_path, dst_path)
     rmtree(CV_DIR)
