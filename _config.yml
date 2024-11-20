@@ -59,11 +59,11 @@ social-media:
 
 # Note that the `pdf` is the name of the file under ./assets/papers/
 preprints:
-  - title: "Faabric: Fine-Grained Distribution of Scientific Workloads in the Cloud"
+  - title: "Faabric: Granular Management of Scientific Applications in The Cloud"
     year: 2023
     authors:
-      - "Simon Shillaker"
       - "Carlos Segarra"
+      - "Simon Shillaker"
       - "Eleftheria Mappoura"
       - "Mayeul Fournial"
       - "Lluis Vilanova"
