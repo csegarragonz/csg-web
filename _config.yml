@@ -204,6 +204,16 @@ Kollaps is fully decentralized, agnostic of the application language and transpo
 
 # Talks slides must be the name of the pdf under `./assets/talks`
 talks:
+  - project: "Is It Time To Put Cold Starts In The Deep Freeze?"
+    talks:
+      - date: "20/11/2024"
+        venue: "SoCC 2024"
+        url: "https://acmsocc.org/2024/schedule.html"
+        slides: "DFaaS_SoCC2024.pdf"
+      - date: "14/11/2024"
+        venue: "LSDS Seminar"
+        url: "https://lsds.doc.ic.ac.uk/seminars"
+        slides: "DFaaS_SoCC2024.pdf"
   - project: "Serverless Confidential Containers: Challenges and Opportunities"
     talks:
       - date: "18/06/2024"
