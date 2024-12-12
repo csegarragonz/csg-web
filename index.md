@@ -22,5 +22,4 @@ For further details, follow any of the following links:\\
 [/teaching](/pages/teaching.html) - teaching and mentoring experience.\\
 [/cv](/assets/SegarraCarlos_CV.pdf){:target="_blank"} - up-to-date CV.
 
-You may contact me at `carlos [at] carlossegarra.com` for personal purposes, or
-`cs1620 [at] ic.ac.uk` for academic purposes.
+You may contact me at `c.segarra [at] imperial.ac.uk`.
