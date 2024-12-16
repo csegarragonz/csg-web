@@ -3,6 +3,7 @@ layout: default
 permalink: /pages/publications
 ---
 
+{% if site.preprints.size > 0 %}
 ## Pre-prints
 
 {% for publication in site.preprints %}
@@ -14,6 +15,7 @@ permalink: /pages/publications
   {{ publication.abstract }}
 </details>
 {% endfor %}
+{% endif %}
 
 ## Publications
 
