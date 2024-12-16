@@ -59,27 +59,29 @@ social-media:
 
 # Note that the `pdf` is the name of the file under ./assets/papers/
 preprints:
-  - title: "Faabric: Granular Management of Scientific Applications in The Cloud"
-    year: 2023
-    authors:
-      - "Carlos Segarra"
-      - "Simon Shillaker"
-      - "Eleftheria Mappoura"
-      - "Mayeul Fournial"
-      - "Lluis Vilanova"
-      - "Peter Pietzuch"
-    pdf: "arXiv2023_Faabric.pdf"
-    abstract: "With their high parallelism and resource needs, many scientific applications benefit from cloud deployments. Today, scientific applications are executed on dedicated pools of VMs, resulting in resource fragmentation: users pay for underutilised resources, and providers cannot reallocate unused resources between applications. While serverless cloud computing could address these issues, its programming model is incompatible with the use of shared memory and message passing in scientific applications: serverless functions do not share memory directly on the same VM or support message passing semantics when scheduling functions dynamically.
-<br />
-<br />
-
-We describe Faabric, a new serverless cloud runtime that transparently distributes applications with shared memory and message passing across VMs. Faabric achieves this by scheduling computation in a fine-grained (thread/process) fashion through a new execution abstraction called Granules. To support shared memory, Granules are isolated using WebAssembly but share memory directly; to support message passing, Granules offer asynchronous point-to-point communication. Faabric schedules Granules to meet an application's parallelism needs. It also synchronises changes to Granule's shared memory, and migrates Granules to improve locality.
-"
 
 # Note that the `pdf` is the name of the file under ./assets/papers/
 publications:
+  - title: "GRANNY: Granular Management of Compute-Intensive Applications in The Cloud"
+    venue: NSDI
+    year: 2025
+    authors:
+      - "Carlos Segarra"
+      - "Simon Shillaker"
+      - "Guo Li"
+      - "Eleftheria Mappoura"
+      - "Rodrigo Bruno"
+      - "Lluis Vilanova"
+      - "Peter Pietzuch"
+    pdf: "not_yet_available"
+    abstract: "Parallel applications are typically implemented using multi-threading (with shared memory, e.g., OpenMP) or multi-processing (with message passing, e.g., MPI). While it seems attractive to deploy such applications in cloud VMs, existing cloud schedulers fail to manage these applications efficiently: they cannot scale multi-threaded applications dynamically when more vCPUs in a VM become available, and they cause fragmentation over time because of the static allocation of multi-process applications to VMs.
+<br />
+<br />
+
+We describe GRANNY, a new distributed runtime that enables the fine-granular management of multi-threaded/process applications in cloud environments. GRANNY supports the vertical scaling of multi-threaded applications within a VM and the horizontal migration of multi-process applications between VMs. GRANNY achieves both through a single WebAssembly-based execution abstraction: Granules can execute application code with thread or process semantics and allow for efficient snapshotting. GRANNY scales up applications by adding more Granules at runtime, and de-fragments applications by migrating Granules between VMs. In both cases, it launches new Granules from snapshots efficiently. We evaluate GRANNY with dynamic scheduling policies and show that, compared to current schedulers, it reduces the makespan for OpenMP workloads by up to 60% and the fragmentation for MPI workloads by up to 25%.
+"
   - title: "Is It Time To Put Cold Starts In The Deep Freeze?"
-    venue: "SoCC"
+    venue: SoCC
     year: 2024
     authors:
       - "Carlos Segarra"
