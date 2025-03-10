@@ -62,21 +62,6 @@ preprints:
 
 # Note that the `pdf` is the name of the file under ./assets/papers/
 publications:
-  - title: "Mosaic: Optimizing Cloud Resource Efficiency with Lazily-Packaged Application Modules"
-    venue: "SESAME @ EuroSys"
-    year: 2025
-    authors:
-      - "Serhii Ivanenko"
-      - "Carlos Segarra"
-      - "Rodrigo Bruno"
-    pdf: "sesame25-mosaic.pdf"
-    abstract: "Modern cloud platforms require users to build their application code and package it with its run-time dependencies in a hardware-agnostic package like a container or VM image. Packaging applications before their deployment on their target hardware prevents users from leveraging optimized hardware or harnessing opportunities that appear at run-time, like application co-location for faster communication. This forces developers to preemptively package the same application for an ever-increasing universe of possible target architectures, bloating cloud storage and package registries.
-<br />
-<br />
-
-We present Mosaic, our vision for a new modular architecture to build cloud applications that delays the packaging of applications until they are deployed on their target resources. Applications in Mosaic are composed of individual Cloud Modules: a language- and hardware-independent representation for application code and library dependencies, where each module offers a public API to communicate with other modules. We discuss a prototype implementation based on the WebAssembly instruction format and demonstrate its potential benefits to leverage hardware-optimized libraries to improve performance, bypass communication stacks for distributed applications that exhibit co-location, and reduce storage bloat through deduplication and sharing.
-"
-
   - title: "GRANNY: Granular Management of Compute-Intensive Applications in The Cloud"
     venue: NSDI
     year: 2025
@@ -94,6 +79,21 @@ We present Mosaic, our vision for a new modular architecture to build cloud appl
 <br />
 
 We describe GRANNY, a new distributed runtime that enables the fine-granular management of multi-threaded/process applications in cloud environments. GRANNY supports the vertical scaling of multi-threaded applications within a VM and the horizontal migration of multi-process applications between VMs. GRANNY achieves both through a single WebAssembly-based execution abstraction: Granules can execute application code with thread or process semantics and allow for efficient snapshotting. GRANNY scales up applications by adding more Granules at runtime, and de-fragments applications by migrating Granules between VMs. In both cases, it launches new Granules from snapshots efficiently. We evaluate GRANNY with dynamic scheduling policies and show that, compared to current schedulers, it reduces the makespan for OpenMP workloads by up to 60% and the fragmentation for MPI workloads by up to 25%.
+"
+
+  - title: "Mosaic: Optimizing Cloud Resource Efficiency with Lazily-Packaged Application Modules"
+    venue: "SESAME @ EuroSys"
+    year: 2025
+    authors:
+      - "Serhii Ivanenko"
+      - "Carlos Segarra"
+      - "Rodrigo Bruno"
+    pdf: "sesame25-mosaic.pdf"
+    abstract: "Modern cloud platforms require users to build their application code and package it with its run-time dependencies in a hardware-agnostic package like a container or VM image. Packaging applications before their deployment on their target hardware prevents users from leveraging optimized hardware or harnessing opportunities that appear at run-time, like application co-location for faster communication. This forces developers to preemptively package the same application for an ever-increasing universe of possible target architectures, bloating cloud storage and package registries.
+<br />
+<br />
+
+We present Mosaic, our vision for a new modular architecture to build cloud applications that delays the packaging of applications until they are deployed on their target resources. Applications in Mosaic are composed of individual Cloud Modules: a language- and hardware-independent representation for application code and library dependencies, where each module offers a public API to communicate with other modules. We discuss a prototype implementation based on the WebAssembly instruction format and demonstrate its potential benefits to leverage hardware-optimized libraries to improve performance, bypass communication stacks for distributed applications that exhibit co-location, and reduce storage bloat through deduplication and sharing.
 "
 
   - title: "Is It Time To Put Cold Starts In The Deep Freeze?"
