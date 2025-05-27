@@ -2,8 +2,8 @@ name: "Renew HTTPS certs"
 
 on:
   schedule:
-    # Run at 3:00 AM on the 1st day of every other month (Jan, Mar, May, etc.)
-    - cron: '0 3 1 1,3,5,7,9,11 *'
+    # Run at 3:00 AM on the 1st day of every month
+    - cron: '0 3 1 * *'
   workflow_dispatch:
 
 jobs:
@@ -16,6 +16,8 @@ jobs:
       KEYS_DIR: /home/csegarra/csg-web/keys
 
     steps:
+    - uses: actions/checkout@v4
+
     - name: "Stop web container"
       run: docker rm -f live-web
 
@@ -30,4 +32,4 @@ jobs:
         sudo chown -R csegarra:csegarra ${KEYS_DIR}
 
     - name: "Run container again"
-      run: python3 ${WEB_DIR}/deploy_entrypoint.py
+      run: python3 ./deploy_entrypoint.py
