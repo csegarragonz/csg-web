@@ -1,0 +1,33 @@
+name: "Renew HTTPS certs"
+
+on:
+  schedule:
+    # Run at 3:00 AM on the 1st day of every other month (Jan, Mar, May, etc.)
+    - cron: '0 3 1 1,3,5,7,9,11 *'
+  workflow_dispatch:
+
+jobs:
+  renew-certs:
+    runs-on: self-hosted
+    env:
+      DOMAIN: carlossegarra.com
+      # WARNING: this value is hard-coded in deploy_entrypoint.py. It will
+      # mount this directory in the corresponding path in the container.
+      KEYS_DIR: /home/csegarra/csg-web/keys
+
+    steps:
+    - name: "Stop web container"
+      run: docker rm -f live-web
+
+    - name: "Renew certs"
+      run: sudo certbot renew --standalone
+
+    - name: "Copy keys in place"
+      run: |
+        mkdir -p ${KEYS_DIR}
+        sudo cp /etc/letsencrypt/live/${DOMAIN}/fullchain.pem ${KEYS_DIR}/fullchain.pem
+        sudo cp /etc/letsencrypt/live/${DOMAIN}/privkey.pem ${KEYS_DIR}/privkey.pem
+        sudo chown -R csegarra:csegarra ${KEYS_DIR}
+
+    - name: "Run container again"
+      run: python3 ${WEB_DIR}/deploy_entrypoint.py
