@@ -5,6 +5,10 @@ permalink: /pages/work
 
 ## Work Experience
 
+* **Research Intern** Systems Group - Microsoft Research \\
+  May 2025 - August 2025 \\
+  Supervisor: Pedro Henrique Penna
+
 * **Graduate Student Visitor** Hybrid Cloud Infrastructure - IBM Research \\
   September 2023 - December 2023 \\
   Supervisor: Daniele Buono

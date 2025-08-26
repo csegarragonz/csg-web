@@ -11,7 +11,7 @@ I am a fifth-year PhD student at the Large-Scale Data and Systems Group ([LSDS](
 My research addresses the design and implementation of secure, high-performance, runtimes for the cloud.
 I am particularly interested in serverless and confidential computing.
 Most of my work is open-source and available on [Github](https://github.com/csegarragonz).
-During my PhD, I have interned at Intel Labs, IBM Research and Microsoft Research (incoming summer 2025).
+During my PhD, I have interned at Intel Labs, IBM Research and Microsoft Research.
 
 {% assign allowed_venues = "NSDI,EuroSys,SoCC" %}
 Selected publications ([full list](/pages/publications.html)):
