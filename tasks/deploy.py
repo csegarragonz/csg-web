@@ -6,9 +6,9 @@ from subprocess import run
 from tasks.util.env import PROJ_ROOT, CONTAINER_NAME
 from tasks.util.version import get_docker_tag
 
-KEY_FILENAME = "/home/csegarra/.ssh/id_rsa"
-SERVER_IP = "163.172.177.63"
-SERVER_USERNAME = "csegarra"
+KEY_FILENAME = "/home/csegarra/.ssh/id_ed25519_hetzner"
+SERVER_IP = "89.167.25.102"
+SERVER_USERNAME = "root"
 REMOTE_DIR = "/home/{}/csg-web".format(SERVER_USERNAME)
 
 
