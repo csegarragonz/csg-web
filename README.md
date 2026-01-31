@@ -4,7 +4,7 @@ This repository holds the source code for my [personal website](
 https://carlossegarra.com). The template is inspired from the [researcher](
 http://ankitsultana.com/researcher) with some tweaks.
 
-To do any changes, activate the virtual environment:
+To do any changes, first activate the virtual environment:
 
 ```bash
 source ./bin/workon.sh
