@@ -13,7 +13,7 @@ jobs:
       DOMAIN: carlossegarra.com
       # WARNING: this value is hard-coded in deploy_entrypoint.py. It will
       # mount this directory in the corresponding path in the container.
-      KEYS_DIR: /home/csegarra/csg-web/keys
+      KEYS_DIR: ~/csg-web/keys
 
     steps:
     - uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
         mkdir -p ${KEYS_DIR}
         sudo cp /etc/letsencrypt/live/${DOMAIN}/fullchain.pem ${KEYS_DIR}/fullchain.pem
         sudo cp /etc/letsencrypt/live/${DOMAIN}/privkey.pem ${KEYS_DIR}/privkey.pem
-        sudo chown -R csegarra:csegarra ${KEYS_DIR}
+        sudo chown -R $(id -u):$(id -g) ${KEYS_DIR}
 
     - name: "Run container again"
       run: python3 ./deploy_entrypoint.py
