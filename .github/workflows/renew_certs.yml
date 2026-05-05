@@ -11,25 +11,15 @@ jobs:
     runs-on: self-hosted
     env:
       DOMAIN: carlossegarra.com
-      # WARNING: this value is hard-coded in deploy_entrypoint.py. It will
-      # mount this directory in the corresponding path in the container.
-      KEYS_DIR: ~/csg-web/keys
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     - name: "Stop web container"
       run: docker rm -f live-web
 
     - name: "Renew certs"
       run: sudo certbot renew --standalone
-
-    - name: "Copy keys in place"
-      run: |
-        mkdir -p ${KEYS_DIR}
-        sudo cp /etc/letsencrypt/live/${DOMAIN}/fullchain.pem ${KEYS_DIR}/fullchain.pem
-        sudo cp /etc/letsencrypt/live/${DOMAIN}/privkey.pem ${KEYS_DIR}/privkey.pem
-        sudo chown -R $(id -u):$(id -g) ${KEYS_DIR}
 
     - name: "Run container again"
       run: python3 ./deploy_entrypoint.py
