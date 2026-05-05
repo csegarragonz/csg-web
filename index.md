@@ -2,16 +2,11 @@
 layout: main_page
 ---
 
-<div style="border: 1px solid red; padding: 1em; background-color: #ffe6e6; color: red; border-radius: 4px;">
-  <strong>Looking for post-docs!</strong> I am looking for post-doc opportunities from <strong>January 2026</strong>. If you have or know of an opening, do check my <a href="{{ site.url }}/assets/SegarraCarlos_CV.pdf">CV</a> and reach-out to `c.segarra[at]imperial.ac.uk`.
-</div>
+**I have joined [Callosum](https://callosum.com) as a member of technical staff.**
 
-I am a fifth-year PhD student at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
+I did my PhD at the Large-Scale Data and Systems Group ([LSDS](https://lsds.doc.ic.ac.uk/)) of the Imperial College London, under the supervision of [Prof. Peter Pietzuch](https://www.doc.ic.ac.uk/~prp/).
 
-My research addresses the design and implementation of secure, high-performance, runtimes for the cloud.
-I am particularly interested in serverless and confidential computing.
-Most of my work is open-source and available on [Github](https://github.com/csegarragonz).
-During my PhD, I have interned at Intel Labs, IBM Research and Microsoft Research.
+During my PhD, my research addressed the design and implementation of secure, high-performance, runtimes for the cloud, focusing on serverless and confidential computing. Most of my work is open-source and available on [Github](https://github.com/csegarragonz). During my PhD I also interned at Intel Labs, IBM Research, and Microsoft Research.
 
 {% assign allowed_venues = "NSDI,EuroSys,SoCC" %}
 Selected publications ([full list](/pages/publications.html)):
@@ -21,8 +16,7 @@ Selected publications ([full list](/pages/publications.html)):
   [(PDF)]({{ '/assets/papers/' | append: publication.pdf | relative_url }}){:target="_blank"} \\
 {% for author in publication.authors %}{% assign names = author | split: ' ' %}{% if forloop.index > 1 %}, {% endif %}{{names[0] | slice: 0 }}. {{names[1]}}{% endfor %}{% endif %}{% endfor %}
 
-In the past, I received a MSc in advanced mathematics, a BSc in mathematics, and a BSc in electrical engineering from the Technical University of Catalonia (UPC).
-I also worked as a researcher for the Barcelona Supercomputing Center (BSC), Nokia Bell Labs, the Swiss Center of Electronics and Microtechnology (CSEM), the University of Neuchatel, and the UPC.
+In the past, I received a MSc in advanced mathematics, a BSc in mathematics, and a BSc in electrical engineering from the Technical University of Catalonia (UPC). I also worked as a researcher for the Barcelona Supercomputing Center (BSC), Nokia Bell Labs, the Swiss Center of Electronics and Microtechnology (CSEM), the University of Neuchatel, and the UPC.
 
 For further details, visit any of the following links:\\
 [/publications](/pages/publications.html) - updated publication list.\\
@@ -34,4 +28,4 @@ For further details, visit any of the following links:\\
 [/teaching](/pages/teaching.html) - teaching and mentoring experience.\\
 [/cv](/assets/SegarraCarlos_CV.pdf){:target="_blank"} - up-to-date CV.
 
-You may contact me at `c.segarra [at] imperial.ac.uk`.
+You may contact me at `carlos [at] carlossegarra.com`.
